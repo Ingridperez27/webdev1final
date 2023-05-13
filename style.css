@@ -1,0 +1,148 @@
+body {
+    background-color: pink;
+  }
+  h1, p {
+    text-align: center;
+    font-family: 'Wix Madefor Text', sans-serif;
+    ;
+    color:rgb(181, 14, 105)
+  
+  }
+  h3 {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    ;
+    color:rgb(181, 14, 105)
+  
+  
+  }
+    nav {
+      background-color: #f03586;
+      overflow: hidden;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav li {
+      float: left;
+    }
+    
+    nav li a {
+      display: block;
+      color: rgb(235, 166, 207);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    nav li a:hover {
+      background-color: #ed3faa;
+    }
+  
+  a {
+    background-color:rgb(181, 14, 105);
+    padding: .5em;
+    
+    
+  /*   transition-property: all;
+    transition-duration: .5s;
+    transition-delay: 1s; */
+    transition: all 1s;
+  }
+  
+  a:hover {
+    background-color: rgb(245, 9, 221);
+    color: rgb(233, 151, 203);
+    border-radius: 100px;
+    transform: rotate(1080deg) scale(1);
+    transition: border-radius .10s, transform 0.2s 0.2s; /* transition applied only on hover */
+  }
+  
+  * {
+    margin: 100;
+    padding: 800;
+    box-sizing: border-box;
+    align-items: center;
+  }
+  
+  .container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .box {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(183, 56, 141);
+    animation: move-up .90s infinite 
+    }
+  
+  @keyframes move-up {
+    to {
+      transform: translateY(-100%) rotate(30deg) scale(2);
+     
+    }
+  }
+  
+  .a {
+    background-color: rgb(214, 110, 143);
+    animation-delay: .230s;
+  }
+  .b {
+    background-color: rgb(214, 110, 143);
+    animation-delay: .230s;
+  }
+  .c {
+    background-color: rgb(153, 5, 77);
+    animation-delay: .225s;
+  }
+  .d {
+    background-color: rgb(100, 53, 90);
+    animation-delay: .200s;
+  }
+  .e {
+    background-color: rgb(230, 168, 219);
+    animation-delay: .220s;
+  }
+  .f {
+    background-color: rgb(181, 33, 156);
+    animation-delay: .220s;
+  }
+  
+  .g {
+    background-color: rgb(240, 181, 231);
+    animation-delay: .220s;
+  }
+  .h {
+    background-color: rgb(240, 181, 231);
+    animation-delay: .220s;
+  }
+  .i {
+    background-color: rgb(199, 20, 172);
+    animation-delay: .220s;
+  }
+  .j {
+    background-color: rgb(227, 148, 215);
+    animation-delay: .220s;
+  }
+  .k {
+    background-color: rgb(242, 108, 222);
+    animation-delay: .220s;
+  }
+  .l {
+    background-color: rgb(241, 193, 234);
+    animation-delay: .220s;
+  }
+  
+  
+  
+  
